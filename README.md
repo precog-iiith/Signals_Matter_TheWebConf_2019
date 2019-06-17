@@ -1,6 +1,19 @@
 # Signals Matter: Understanding Popularity and Impact of Users on Stack Overflow
 ---
 
+This is the Python implementation of the experiments described in the [Signals Matter](http://precog.iiitd.edu.in/pubs/SignalsMatter-TheWebConf19.pdf) paper.
+
+```
+@inproceedings{merchant2019signals,
+  title={Signals Matter: Understanding Popularity and Impact of Users on Stack Overflow},
+  author={Merchant, Arpit and Shah, Daksh and Bhatia, Gurpreet Singh and Ghosh, Anurag and Kumaraguru, Ponnurangam},
+  booktitle={The World Wide Web Conference},
+  pages={3086--3092},
+  year={2019},
+  organization={ACM}
+}
+```
+
 ## Authors:
   * Arpit Merchant
   * Daksh Shah
@@ -46,6 +59,9 @@ python regression_model.py [predict_feature] [model_name] [num_runs] [num_thread
 `model_name` - Choose between "base", "reputation" and "badges".
 `num_runs` - Number of runs of the experiment.
 `num_threads` - Number of threads for parallelization
+
+## Cite
+Please consider citing our paper if you use our code.
 
 ## Acknowledgment
 We thank Kushagra Bhargava, Shubham Singh, and Shwetanshu Singh for their help in using and maintaining system infrastructures.
